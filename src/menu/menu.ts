@@ -28,6 +28,7 @@ export function createMenu() {
     header.className = "temple-header";
     header.innerHTML = `
         <div class="temple-title">*** TEMPLE OS MENU SYSTEM ***</div>
+        <img src="https://i.ytimg.com/vi/65OtzDAa9DA/maxresdefault.jpg" alt="Temple OS Logo" class="temple-image">
         <div class="temple-subtitle">Choose Your Divine Command</div>
     `;
     mainDiv.appendChild(header);
