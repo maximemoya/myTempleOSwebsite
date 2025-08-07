@@ -1,0 +1,83 @@
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Courier New', monospace;
+    color: #00ff00;
+    background-color: #000080;
+}
+
+.info-section,
+.creator-section,
+.tech-section {
+    margin-bottom: 30px;
+    border: 2px solid #ffff00;
+    padding: 15px;
+    background-color: rgba(0, 0, 255, 0.3);
+}
+
+.section-title {
+    color: #ffff00;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-bottom: 1px solid #ffff00;
+    padding-bottom: 5px;
+}
+
+.info-content,
+.creator-content,
+.tech-content {
+    line-height: 1.6;
+}
+
+.info-content h3,
+.tech-content h3 {
+    color: #ff00ff;
+    margin: 15px 0 10px 0;
+    font-size: 14px;
+}
+
+.info-content ul,
+.tech-content p {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.info-content li {
+    margin-bottom: 5px;
+}
+
+.creator-content p {
+    margin-bottom: 10px;
+}
+
+.creator-content p:last-child {
+    color: #ff00ff;
+    font-style: italic;
+}
+
+/* Scrollable content */
+.about-container {
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+/* Scrollbar styling */
+.about-container::-webkit-scrollbar {
+    width: 12px;
+}
+
+.about-container::-webkit-scrollbar-track {
+    background: #000080;
+}
+
+.about-container::-webkit-scrollbar-thumb {
+    background: #ffff00;
+    border: 1px solid #000080;
+}
+
+.about-container::-webkit-scrollbar-thumb:hover {
+    background: #ff00ff;
+}
